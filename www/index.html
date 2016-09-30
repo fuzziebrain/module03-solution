@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Template</title>
-  </head>
-  <body>
-    Something great is coming!
-  </body>
+<html lang="en" ng-app="NarrowItDownApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 03</title>
+
+  <link rel="stylesheet" href="lib/angular-material/angular-material.css" />
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="css/app.css"></link>
+</head>
+
+<body>
+  <div layout="column" md-theme="mytheme" ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2 class="md-flex">Single Page Web Applications with AngularJS - Module 03 Assignment</h2>
+      </div>
+    </md-toolbar>
+    <md-content flex layout-padding>
+      <div>
+        <h2>Narrow Down Your Chinese Menu Choice</h2>
+      </div>
+    </md-content>
+  </div>
+
+  <!-- load scripts -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-animate/angular-animate.js"></script>
+  <script src="lib/angular-aria/angular-aria.js"></script>
+  <script src="lib/angular-messages/angular-messages.js"></script>
+  <script src="lib/angular-material/angular-material.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+
 </html>

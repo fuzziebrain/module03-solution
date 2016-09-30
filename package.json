@@ -1,5 +1,5 @@
 {
-  "name": "jhu-angularjs-starter",
+  "name": "module03-soluion",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuzziebrain/jhu-angularjs-starter.git"
+    "url": "git+https://github.com/fuzziebrain/module03-soluion.git"
   },
   "author": "Adrian Png <png.adrian@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fuzziebrain/jhu-angularjs-starter/issues"
+    "url": "https://github.com/fuzziebrain/module03-soluion/issues"
   },
-  "homepage": "https://github.com/fuzziebrain/jhu-angularjs-starter#readme",
+  "homepage": "https://github.com/fuzziebrain/module03-soluion#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
